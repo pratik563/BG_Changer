@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+} 
+
+.container{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.colorbar{
+  margin-top: 500px;
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.4em 1.2em;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+#redbtn{
+  background-color: red;
+}
+
+#greenbtn{
+  background-color: green;
+}
+
+#bluebtn{
+  background-color: blue;
+}
+
+#yellowbtn{
+  color: black;
+  background-color: yellow;
+}
+
+#aquabtn{
+  color: black;
+  background-color:aqua;
+}
+
+#brownbtn{
+  background-color: brown;
+}
+
+#purplebtn{
+  background-color:purple;
+}
+
+#whitebtn{
+  color: black;
+  background-color: white;
+}
+
+#pinkbtn{
+  color: black;
+  background-color: pink;
+}
+
+#orangebtn{
+  color: black;
+  background-color: orange;
+}
